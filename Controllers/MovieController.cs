@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
 
 namespace MovieCore.Controllers
 {
@@ -30,8 +29,6 @@ namespace MovieCore.Controllers
                 response.EnsureSuccessStatusCode();
 
                 var responseBody = await response.Content.ReadAsStringAsync();
-
-                var movieDetails = JsonConvert.DeserializeObject(responseBody);
 
                 return Ok(responseBody);
             }
