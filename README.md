@@ -1,4 +1,3 @@
-Link to test https://github.com/naziiriah/TestMovieCore
 
 To run this locally, follow these steps:
   Run the Application:
