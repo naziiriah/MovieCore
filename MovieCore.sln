@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieCore", "MovieCore.csproj", "{9E2B611B-52F9-4657-9C00-F6317989C1D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MovieCore", "MovieCore.csproj", "{9E2B611B-52F9-4657-9C00-F6317989C1D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMovieCore", "..\TestMovieCore\TestMovieCore.csproj", "{7DA4720C-1FB6-46AC-87E7-280B740DD97A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9E2B611B-52F9-4657-9C00-F6317989C1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E2B611B-52F9-4657-9C00-F6317989C1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E2B611B-52F9-4657-9C00-F6317989C1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA4720C-1FB6-46AC-87E7-280B740DD97A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DA4720C-1FB6-46AC-87E7-280B740DD97A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DA4720C-1FB6-46AC-87E7-280B740DD97A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DA4720C-1FB6-46AC-87E7-280B740DD97A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
